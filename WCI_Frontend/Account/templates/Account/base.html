@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'Account/logo/wc.png' %}" type="image/gif" sizes="32x32">
     <link rel="stylesheet" href="{% static 'Account/css/style.css' %}">
     <link rel="stylesheet" href="{% static 'Account/css/bootstrap.css' %}">
-
+    <link rel="stylesheet" href="{% static 'Account/css/all.css' %}">
+  
     <title>{% block title %}{% endblock title %}</title>
 </head>
 <body>
@@ -16,8 +18,10 @@
     {% include 'Account/footer.html' %}
 
     <script src="{% static 'Account/js/bootstrap.js'%}"></script>
+    <script src="{% static 'Account/js/popper.js'%}"></script>
     <script src="{% static 'Account/js/base.js'%}"></script>
+    <script src="{% static 'Account/js/all.js'%}"></script>
     <script src="{% static 'Account/js/navbar.js'%}"></script>
-    <script src="{% static 'Account/js/jquery.js'%}"></script>
+    <!-- <script src="{% static 'Account/js/jquery.js'%}"></script> -->
 </body>
 </html>
